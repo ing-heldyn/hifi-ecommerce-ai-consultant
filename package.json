@@ -1,0 +1,23 @@
+{
+  "name": "heldyn-ai-bot",
+  "version": "3.0.0",
+  "description": "Heldyn AI – WhatsApp Bot Hi-Fi | Gemini 2.5 Flash + Firebase + Chatwoot + Sheets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg":  "^1.1.0",
+    "@google/generative-ai":     "^0.24.0",
+    "axios":                     "^1.7.9",
+    "express":                   "^4.21.2",
+    "firebase-admin":            "^13.0.0",
+    "fluent-ffmpeg":             "^2.1.3",
+    "form-data":                 "^4.0.1",
+    "google-auth-library":       "^9.15.0",
+    "googleapis":                "^144.0.0" 
+  }
+}
